@@ -3,7 +3,7 @@ import { collection, getDocs } from "firebase/firestore";
 import { db } from "../components/firebase/config";
 
 import ProductHero from "../components/products/ProductHero";
-import ProductFilter from "../components/products/ProductFilter";
+import ProductFilter from "../components/Products/ProductFilter";
 import ProductSort from "../components/products/ProductSort";
 import ProductList from "../components/products/ProductList";
 import ProductClient from "../components/products/ProductClient"
