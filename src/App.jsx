@@ -4,6 +4,12 @@ import Home from "./pages/Home";
 import Product from "./pages/Product";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import { lazy, Suspense } from "react";
+
+const Home = lazy(() => import("./pages/Home"));
+const Product = lazy(() => import("./pages/Product"));
+const About = lazy(() => import("./pages/About"));
+const Contact = lazy(() => import("./pages/Contact"));
 
 function App() {
   return (
