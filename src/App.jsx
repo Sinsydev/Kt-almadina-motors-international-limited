@@ -1,7 +1,7 @@
  import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { lazy, Suspense } from "react";
-import { Github, Whatsapp } from "lucide-react";
+import { Github, MessageCircle } from "lucide-react"; // replaced Whatsapp with MessageCircle
 
 // Lazy-loaded pages
 const Home = lazy(() => import("./pages/Home"));
@@ -45,7 +45,7 @@ function App() {
               rel="noopener noreferrer"
               className="hover:text-green-400"
             >
-              <Whatsapp size={20} />
+              <MessageCircle size={20} /> {/* safe replacement for Whatsapp */}
             </a>
           </div>
           <p className="text-sm">Created by Sinsydev</p>
@@ -59,5 +59,6 @@ function App() {
 }
 
 export default App;
+
 
 
