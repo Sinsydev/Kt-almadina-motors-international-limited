@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/Kt-almadina-motors-international-limited/",
+ 
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'), 
