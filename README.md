@@ -59,11 +59,16 @@ The application implements a decoupled component-driven architecture to keep cli
 # 📂 Project Structure
 
 kt-almadina-motors-international-limited
+
 │
+
 ├── public/                # Static public vector graphics and high-res vehicle imagery
+
 │
 ├── src/
+
 │   ├── components/        # Reusable interface primitives (Navbar, Footer, InventoryCard)
+
 │   │   ├── Navbar.jsx
 │   │   ├── Footer.jsx
 │   │   └── VehicleCard.jsx
