@@ -62,27 +62,37 @@ kt-almadina-motors-international-limited
 
 │
 
-├── public/                # Static public vector graphics and high-res vehicle imagery
+├── public/                                                            # Static public vector graphics and high-res vehicle imagery
 
 │
 ├── src/
 
-│   ├── components/        # Reusable interface primitives (Navbar, Footer, InventoryCard)
+│   ├── components/                                                    # Reusable interface primitives (Navbar, Footer, InventoryCard)
 
 │   │   ├── Navbar.jsx
+
 │   │   ├── Footer.jsx
+
 │   │   └── VehicleCard.jsx
+
 │   │
-│   ├── pages/             # View architecture layouts
+│   ├── pages/                                                         # View architecture layouts
+
 │   │   ├── Home.jsx
+
 │   │   ├── Inventory.jsx
+
 │   │   └── LogisticsTracker.jsx
+
 │   │
-│   ├── App.jsx            # Core layout wrapper and route composition
-│   └── main.jsx           # Virtual DOM execution point
+│   ├── App.jsx                                                        # Core layout wrapper and route composition
+
+│   └── main.jsx                                                       # Virtual DOM execution point
+
 │
-├── package.json           # Dependency tracking file
-└── .gitignore             # Version control asset exclusions
+├── package.json                                                       # Dependency tracking file
+
+└── .gitignore                                                          # Version control asset exclusions
 
 
 ---
