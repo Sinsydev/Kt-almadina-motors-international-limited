@@ -43,10 +43,15 @@ The application implements a decoupled component-driven architecture to keep cli
 # 💻 Technical Stack
 
 | Category | Technology Used | Implementation Purpose |
+
 | :--- | :--- | :--- |
+
 | **Frontend Core** | React.js (Functional Components & Hooks) | Modular UI component rendering engine |
+
 | **Logic Tier** | JavaScript (ES6+) | Manages inventory search filtering, asset matrices, and application state |
+
 | **Styling Grid** | Tailwind CSS | High-speed, responsive utility-first layout execution |
+
 | **Workflow Tools** | Vite / Git / GitHub | High-performance bundling and distributed version control |
 
 ---
